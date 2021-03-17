@@ -42,4 +42,12 @@
     .contents li:nth-of-type(even) .contents-img {
         margin-left: 110px;
     }
+    
+    .syoukai-img {
+        width: 70%;
+    }
+
+    .contents li:nth-of-type(odd) .contents-text {
+        top: 80px;
+    }
 }
