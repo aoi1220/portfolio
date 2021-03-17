@@ -1,0 +1,45 @@
+@media (max-width:950px) {
+    .contents-list {
+        margin-left: 10px;
+    }
+
+    .contents-text {
+        position: absolute;
+        /* top: -50px; */
+    }
+
+    .contents-text:first-of-type {
+        top: -40px;
+    }
+
+    .contents-text h2 {
+        font-size: 40px;
+    }
+
+    .contents-text p {
+        font-size: 10px;
+    }
+
+    .contents li:nth-of-type(even) .contents-img {
+        margin-left: 150px;
+    }
+
+    .contents li:not(:first-of-type) {
+        margin-top: 300px;
+    }
+
+    .contents li:nth-of-type(even) .contents-text {
+        left: 10px;
+    }
+
+
+    #isara-mosya {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:599px) {
+    .contents li:nth-of-type(even) .contents-img {
+        margin-left: 110px;
+    }
+}
