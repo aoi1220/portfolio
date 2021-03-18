@@ -46,7 +46,6 @@
     .syoukai-img {
         width: 70%;
         height: auto;
-        display: none;
     }
 
     .contents li:nth-of-type(odd) .contents-text {
