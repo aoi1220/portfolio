@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="js/script.js" defer>
+    </script>
 </head>
 <body>
     <!-- <header>
@@ -18,11 +20,19 @@
         </div>
     </header> -->
     <header>
-        <div class="textAnimation">AOI</div>
+        <div class="header-list">
+            <ul>
+                <li id="header-item profile-button"><a href="#profile-contents" class="header-profile">profile</a></li>
+                <li id="header-item works-button"><a href="#works-contents" class="header-works">works</a></li>
+            </ul>
+        </div>
+        <div class="header-center">
+            <div class="textAnimation">AOI Portfolio</div>
+        </div>
     </header>
     <main>
         <ul class="contents">
-            <li class="contents-list">
+            <li class="contents-list" id="profile-contents">
                 <div class="contents-img">
                     <img class="syoukai-img" src="img/notebook-1971495_1920.jpg" alt="pc">
                 </div>
@@ -31,14 +41,14 @@
                     <p>19歳の大学生です。<br>現在HTML CSS Javascriptを勉強しています。<br>※実務経験なし<br></p>
                 </div>
             </li>
-            <li class="contents-list">
+            <li class="contents-list" id="works-contents">
                 <div class="contents-img">
                     <img class="mosya" src="img/screencapture-file-Users-nishiguchiaoi-Documents-index-html-2021-03-11-13_32_30.png" alt="模写サイト">
                     <img class="mosya" id="isara-mosya" src="img/screencapture-file-Users-nishiguchiaoi-Documents-new-test-index-html-2021-03-14-14_32_03.png" alt="模写サイト２">
                 </div>
                 <div class="contents-text">
                     <h2>制作物</h2>
-                    <p>Webサイトを模写したものです。
+                    <p>Webサイトを模写したものです。<br>
                         <a href="https://isara.life/">右側のwebサイトの見本</a>
                     </p>
                 </div>
@@ -46,7 +56,21 @@
         </ul>
     </main>
     <footer>
-        <p> </p>
+        
+    <div class="wrapper">
+        <a href="https://twitter.com/Ain_19o">
+            <div class="icon twitter">
+              <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i></span>
+            </div>        
+        </a>
+        <a href="https://github.com/aoi1220">
+        <div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+            </div>
+        </a>
+      </div>
     </footer>
 </body>
 </html>
