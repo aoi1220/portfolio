@@ -1,4 +1,13 @@
 @media (max-width:950px) {
+    .textAnimation {
+        font-size: 34px;
+    }
+
+    .header-profile,
+    .header-works {
+        font-size: 16px;
+    }
+
     .contents-list {
         margin-left: 10px;
     }
@@ -42,7 +51,7 @@
     .contents li:nth-of-type(even) .contents-img {
         margin-left: 110px;
     }
-    
+
     .syoukai-img {
         width: 70%;
         height: auto;
@@ -50,5 +59,9 @@
 
     .contents li:nth-of-type(odd) .contents-text {
         top: 80px;
+    }
+
+    .contents-text h2 {
+        font-size: 20px;
     }
 }
